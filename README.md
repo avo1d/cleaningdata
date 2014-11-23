@@ -4,6 +4,8 @@ cleaningdata
 Cleaning Data Project
 
 SCRIPT:
+-------
+
 run_analysis.R is broken into parts
 
 Part 0: loads all .txt files from root, train and test folders
@@ -17,7 +19,8 @@ Part 6: Writes to tidyset.txt
 
 
 CODEBOOK:
-Subject		- number ID of individual subject
+---------
+Subject    	- number ID of individual subject
 
 ActivityName	- type of activity, extracted from activity_labels.txt
 		  LAYING
@@ -37,9 +40,6 @@ ColFeat		- Measurement labels as composite of following
 		  X/Y/Z
 
 Value		- Calculated mean of each measurement above		  
-
-
-
 
 
 
